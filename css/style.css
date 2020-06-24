@@ -278,13 +278,16 @@ textarea {
 }
 
 a {
-  color: #5656c9;
+  color: #45818e;
   text-decoration: none;
 }
 
-a:hover,
+a:hover {
+  color: #589faf;
+  text-decoration: underline;
+},
 a:focus {
-  color: #0a6ebd;
+  color: #589faf;
   text-decoration: underline;
 }
 
@@ -3267,14 +3270,14 @@ body {
 }
 
 a {
-  color: #333333;
+  color: #45818e;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #0a6ebd;
-  text-decoration: none;
+  color: #589faf;
+  text-decoration: underline;
 }
 
 a.active {
@@ -5879,13 +5882,17 @@ body.no-sidebar .sidebar {
   padding: 0;
 }
 
-.main .pager a:link,
+.main .pager a:link {
+  color: #45818e;
+}
 .main .pager a:visited {
+  color: #589faf;
   background-color: transparent;
 }
 
 .main .pager a:hover {
-  color: #0a6ebd;
+  text-decoration: underline;
+  color: #589faf;
   background-color: transparent;
 }
 
@@ -5933,8 +5940,8 @@ body.no-sidebar .sidebar {
 }
 
 .main .article-meta a:hover {
-  color: #0a6ebd;
-  text-decoration: none;
+  color: #589faf;
+  text-decoration: underline;
 }
 
 .main .article-meta span + span {
@@ -6174,7 +6181,7 @@ body.no-sidebar .sidebar {
 }
 
 .footer .copyright a:hover {
-  color: #0a6ebd;
+  color: #589faf;
 }
 
 /**
@@ -6499,14 +6506,14 @@ body.no-sidebar .sidebar {
 }
 
 .marked-body a {
-  color: #5656c9;
+  color: #45818e;
   text-decoration: none;
 }
 
 .marked-body a:focus,
 .marked-body a:hover {
-  color: #0a6ebd;
-  text-decoration: none;
+  color: #589faf;
+  text-decoration: underline;
 }
 
 .marked-body ul,
@@ -6686,7 +6693,7 @@ body.okayNav-loaded {
 }
 
 .okayNav a:hover {
-  color: #0a6ebd;
+  color: #589faf;
 }
 
 /**
@@ -7303,10 +7310,10 @@ body.okayNav-loaded {
 }
 
 .theme-black .header {
-  background: #422e19;
-  background: -webkit-linear-gradient(left, #422e19 0%, #48392a 80%, #48392a 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#422e19), color-stop(80%, #48392a), to(#48392a));
-  background: linear-gradient(to right, #422e19 0%, #48392a 80%, #48392a 100%);
+  background: #1f0f00;
+  background: -webkit-linear-gradient(left, #1f0f00 0%, #35210e 80%, #35210e 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#1f0f00), color-stop(80%, #35210e), to(#35210e));
+  background: linear-gradient(to right, #1f0f00 0%, #35210e 80%, #35210e 100%);
 }
 
 .theme-blue .header {
@@ -9098,7 +9105,7 @@ body.okayNav-loaded {
 
   a,
   a:visited {
-    text-decoration: underline;
+    color: #0c343d;
   }
 
   a[href]:after {
