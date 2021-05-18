@@ -278,7 +278,7 @@ textarea {
 }
 
 a {
-  color: #45818e;
+  color: #52a4b6;
   text-decoration: none;
 }
 
@@ -720,9 +720,9 @@ abbr[data-original-title] {
 blockquote {
   padding: 10.5px 16px;
   margin: 0 0 21px;
-  border: 1px dotted #eeeeee;
-  border-left: 3px solid #eeeeee;
-  background-color: #fbfbfb;
+  border: 1px dotted #494652;
+  border-left: 3px solid #858388;
+  background-color: #282630;
 }
 
 blockquote p:last-child,
@@ -750,7 +750,7 @@ blockquote .small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #858388;
   border-left: 0;
   text-align: right;
 }
@@ -1699,7 +1699,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #fff;
+  background-color: #494652;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -1867,7 +1867,7 @@ tbody.collapse.in {
   line-height: 1;
   color: #555555;
   text-align: center;
-  background-color: #eeeeee;
+  background-color: #494652;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -2041,7 +2041,7 @@ tbody.collapse.in {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #fff;
+  background-color: #494652;
   border: 1px solid #f2f2f2;
   border-bottom-color: transparent;
   cursor: default;
@@ -2528,7 +2528,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #fff;
+  background-color: #000;
   border: 1px solid #ddd;
   border-radius: 15px;
 }
@@ -2554,7 +2554,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #777777;
-  background-color: #fff;
+  background-color: #000;
   cursor: not-allowed;
 }
 
@@ -2564,7 +2564,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 3px 7px;
   font-size: 12px;
   font-weight: bold;
-  color: #fff;
+  color: #494652;
   line-height: 1;
   vertical-align: middle;
   white-space: nowrap;
@@ -3036,7 +3036,7 @@ button.close {
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: #000;
+  border-right-color: #858388;
 }
 
 .tooltip.left .tooltip-arrow {
@@ -3265,12 +3265,12 @@ body {
   font-family: Georgia,SimSun,"PingHei","PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",sans-serif;
   font-size: 16px;
   line-height: 1.57143;
-  color: #3f2204;
-  background-color: #f9f5f0;
+  color: #ededf6;
+  background-color: #0a090c;
 }
 
 a {
-  color: #45818e;
+  color: #52a4b6;
   text-decoration: none;
 }
 
@@ -3323,22 +3323,6 @@ video,
 svg {
   max-width: 100%;
   height: 100%;
-}
-
-.iframe-container {
-  overflow: hidden;
-  // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
-  padding-top: 56.25%;
-  position: relative;
-}
-
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
 }
 
 /*------------------ clear ------------------------------*/
@@ -4349,7 +4333,7 @@ img.hover-up:hover,
   margin-left: -20px;
   border: 1px solid #cccccc;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #494652;
   -webkit-transition: border 0.15s ease-in-out;
   transition: border 0.15s ease-in-out;
 }
@@ -4477,7 +4461,7 @@ output {
   font-size: 14px;
   line-height: 1.57143;
   color: #555555;
-  background-color: #fff;
+  background-color:#494652;
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -4750,7 +4734,7 @@ a.label:focus {
 
 .panel {
   margin-bottom: 21px;
-  background-color: #fff;
+  background-color: #171a1d;
   border: 1px solid #f2f2f2;
 }
 
@@ -5068,7 +5052,7 @@ table > tbody + tbody {
 }
 
 table table {
-  background-color: #fff;
+  background-color: #131313;
 }
 
 .modal button.close {
@@ -5672,11 +5656,11 @@ pre code {
 /* Hide for mobile, show later */
 
 .header {
-  background-color: #fbfbfb;
+  background-color: #282630;
 }
 
 .sidebar {
-  background-color: #fdfdfd;
+  background-color: #282630;
 }
 
 .sidebar .slimContent {
@@ -5701,7 +5685,7 @@ pre code {
 
 .footer {
   padding: 20px;
-  background-color: #fbfbfb;
+  background-color: #282630;
 }
 
 /*
@@ -5711,7 +5695,7 @@ pre code {
 body.main-center .sidebar {
   left: auto;
   right: 0;
-  border-left: 1px solid #f6f6f6;
+  border-left: 1px solid #858388;
   border-right: 0;
 }
 
@@ -5722,14 +5706,14 @@ body.main-center .sidebar {
 body.main-left .header {
   left: auto;
   right: 0;
-  border-left: 1px solid #f6f6f6;
+  border-left: 1px solid #858388;
   border-right: 0;
 }
 
 body.main-left .sidebar {
   left: auto;
   right: 0;
-  border-left: 1px solid #f6f6f6;
+  border-left: 1px solid #858388;
   border-right: 0;
 }
 
@@ -5841,7 +5825,7 @@ body.no-sidebar .sidebar {
 
 .sidebar-form input[type="text"]:focus,
 .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
-  background-color: #fff;
+  background-color: #494652;
   color: #666;
 }
 
@@ -5899,7 +5883,7 @@ body.no-sidebar .sidebar {
 }
 
 .main .pager a:link {
-  color: #45818e;
+  color: #52a4b6;
 }
 .main .pager a:visited {
   color: #589faf;
@@ -5994,7 +5978,7 @@ body.no-sidebar .sidebar {
 
 .widget .widget-title {
   font-size: 18px;
-  color: #000;
+  color: #fff;
 }
 
 .widget time {
@@ -6118,7 +6102,7 @@ body.no-sidebar .sidebar {
   padding: .3em .6em;
   font-size: 75% !important;
   line-height: 1;
-  background-color: #eee;
+  background-color: #000000;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -6132,7 +6116,7 @@ body.no-sidebar .sidebar {
 
 .bar.bar-footer {
   position: relative;
-  background-color: #fff;
+  background-color: #282630;
   bottom: -15px;
 }
 
@@ -6143,9 +6127,9 @@ body.no-sidebar .sidebar {
   width: calc(100% + 30px);
   height: 52px;
   left: -15px;
-  border-top: 1px solid #f6f6f6;
-  border-bottom: 1px solid #fff;
-  background-color: #fff;
+  border-top: 1px solid #494652;
+  border-bottom: 1px solid #494652;
+  background-color: #000;
 }
 
 .bar .bar-inner {
@@ -6522,7 +6506,7 @@ body.no-sidebar .sidebar {
 }
 
 .marked-body a {
-  color: #45818e;
+  color: #52a4b6;
   text-decoration: none;
 }
 
@@ -6627,7 +6611,7 @@ body.okayNav-loaded {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   padding-top: 15px;
   padding-bottom: 15px;
-  background: #fff;
+  background: #494652;
 }
 
 .okayNav__nav--invisible li {
@@ -6837,7 +6821,7 @@ body.okayNav-loaded {
   color: #666;
   font-size: 12px;
   text-align: center;
-  background-color: #fff;
+  background-color: #494652;
   -webkit-transition: all 200ms;
   transition: all 200ms;
   -webkit-tansition: all 350ms;
@@ -6858,7 +6842,7 @@ body.okayNav-loaded {
   height: 26px;
   line-height: 26px;
   font-size: 12px;
-  background-color: #f3f3f3;
+  background-color: #282630;
   margin: 0;
   padding: 0;
   color: #777;
@@ -7047,7 +7031,7 @@ body.okayNav-loaded {
   box-shadow: none;
   font-weight: 200;
   border-radius: 0;
-  background: #fff;
+  background: #494652;
   line-height: 20px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -7096,7 +7080,7 @@ body.okayNav-loaded {
 
 .ins-section-container {
   position: relative;
-  background: #f7f7f7;
+  background: #000;
 }
 
 .ins-section {
@@ -7148,7 +7132,7 @@ body.okayNav-loaded {
 .ins-section .ins-search-item:hover,
 .ins-section .ins-search-item.active {
   color: #fff;
-  background: #006bde;
+  background: #494652;
 }
 
 .ins-section .ins-search-item:hover .ins-slug,
@@ -7183,7 +7167,7 @@ body.okayNav-loaded {
 .theme-blue .header .navbar-toggle .icon-bar,
 .theme-green .header .navbar-toggle .icon-bar,
 .theme-purple .header .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #494652;
 }
 
 .theme-black .footer,
@@ -7260,7 +7244,7 @@ body.okayNav-loaded {
 .theme-purple .main-nav > .active a:hover,
 .theme-purple .main-nav > .active a.active {
   color: #fff;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .theme-black .search .sidebar-form,
@@ -7321,15 +7305,15 @@ body.okayNav-loaded {
 .theme-green .search input[type="text"]:focus + .input-group-btn .btn,
 .theme-purple .search input[type="text"]:focus,
 .theme-purple .search input[type="text"]:focus + .input-group-btn .btn {
-  background-color: #fff;
+  background-color:#494652;
   color: #666;
 }
 
 .theme-black .header {
-  background: #1f0f00;
-  background: -webkit-linear-gradient(left, #1f0f00 0%, #35210e 80%, #35210e 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#1f0f00), color-stop(80%, #35210e), to(#35210e));
-  background: linear-gradient(to right, #1f0f00 0%, #35210e 80%, #35210e 100%);
+  background: #000;
+  background: -webkit-linear-gradient(left, #000 0%, #16141b 80%, #16141b 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#292632), color-stop(80%, #000), to(#000));
+  background: linear-gradient(to right, #000 0%, #16141b 80%, #16141b 100%);
 }
 
 .theme-blue .header {
@@ -7842,7 +7826,7 @@ body.okayNav-loaded {
     padding: 0;
     overflow-y: auto;
     /* Scrollable contents if viewport is shorter than content. */
-    border-right: 1px solid #f6f6f6;
+    border-right: 1px solid #858388;
     width: 4.16667%;
   }
 
@@ -7856,7 +7840,7 @@ body.okayNav-loaded {
     overflow-x: hidden;
     overflow-y: auto;
     /* Scrollable contents if viewport is shorter than content. */
-    border-right: 1px solid #f6f6f6;
+    border-right: 1px solid #858388;
     width: 33.33333%;
   }
 
@@ -8670,7 +8654,7 @@ body.okayNav-loaded {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
-    background-color: #e7e7e7;
+    background-color: #282630;
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -8780,7 +8764,7 @@ body.okayNav-loaded {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -38px;
-    background-color: #f6f6f6;
+    background-color: #494652;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
@@ -9187,7 +9171,7 @@ body.okayNav-loaded {
 
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #494652 !important;
   }
 
   .table-bordered th,
